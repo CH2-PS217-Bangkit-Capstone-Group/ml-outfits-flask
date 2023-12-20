@@ -57,6 +57,6 @@ To use the app, follow these steps:
 4. Send a GET request to the `/mix-match` endpoint with the `filename` query parameter set to the filename of the image you want to generate outfits for.
 5. The app will generate outfit combinations using the selected image and other images in the database that match the predicted color and category of the selected image.
 6. The app will return a JSON response with the following information:
-     * `message`: Outfit generation completed successfully and uploded in storagecombinations were generated.
+     * `message`: Outfit generation completed successfully and uploaded in storage.
     * `status code`: HTTP Status Code of the response
     * `outfit`: Generated outfits from matched filename.
