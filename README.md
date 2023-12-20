@@ -37,7 +37,7 @@ pip install -r requirements.txt
 To run the app, run the following command in your terminal:
 
 ```
-python app.py
+flask run
 ```
 
 The app will run on port 5000 by default.
